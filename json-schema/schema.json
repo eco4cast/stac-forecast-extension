@@ -160,19 +160,19 @@
     "require_any_field": {
       "$comment": "Please list all fields here so that we can force the existance of one of them in other parts of the schemas.",
       "anyOf": [
-        {"required": ["template:new_field"]},
-        {"required": ["template:xyz"]},
-        {"required": ["template:another_one"]}
+        {"required": ["fc:issue_time"]},
+        {"required": ["fc:uncertainty"]},
+        {"required": ["fc:another_one"]}
       ]
     },
     "fields": {
       "$comment": "Add your new fields here. Don't require them here, do that above in the corresponding schema.",
       "type": "object",
       "properties": {
-        "template:new_field": {
+        "fc:new_field": {
           "type": "string"
         },
-        "template:xyz": {
+        "fc:xyz": {
           "type": "object",
           "required": [
             "x",
