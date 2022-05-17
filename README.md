@@ -1,13 +1,13 @@
 # Template Extension Specification
 
-- **Title:** Template
-- **Identifier:** <https://stac-extensions.github.io/template/v1.0.0/schema.json>
-- **Field Name Prefix:** template
+- **Title:** Forecast Extension
+- **Identifier:** <https://projects.ecoforecast.org/forecast/v1.0.0/schema.json>
+- **Field Name Prefix:** fc
 - **Scope:** Item, Collection
 - **Extension [Maturity Classification](https://github.com/radiantearth/stac-spec/tree/master/extensions/README.md#extension-maturity):** Proposal
-- **Owner**: @your-gh-handles @person2
-
-This document explains the Template Extension to the [SpatioTemporal Asset Catalog](https://github.com/radiantearth/stac-spec) (STAC) specification.
+- **Owner**: @cboettig
+- 
+This document explains the Forecast Extension to the [SpatioTemporal Asset Catalog](https://github.com/radiantearth/stac-spec) (STAC) specification.
 This is the place to add a short introduction.
 
 - Examples:
